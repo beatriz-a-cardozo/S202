@@ -1,0 +1,26 @@
+[
+    {
+        "nomeSensor": "Temp1",
+        "valorSensor": 31,
+        "unidadeMedida": "C°",
+        "sensorAlarmado": false
+    },
+    {
+        "nomeSensor": "Temp2",
+        "valorSensor": 32,
+        "unidadeMedida": "C°",
+        "sensorAlarmado": false
+    },
+    {
+        "nomeSensor": "Temp3",
+        "valorSensor": 33,
+        "unidadeMedida": "C°",
+        "sensorAlarmado": false
+    },
+    {
+        "nomeSensor": "Temp4",
+        "valorSensor": 34,
+        "unidadeMedida": "C°",
+        "sensorAlarmado": false
+    }
+]
