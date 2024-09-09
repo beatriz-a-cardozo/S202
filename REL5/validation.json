@@ -1,0 +1,31 @@
+{
+    $jsonSchema: {
+        bsonType: 'object',
+        required: [
+            'titulo',
+            'autor',
+            'ano',
+            'preco'
+        ],
+        properties: {
+            nome: {
+                bsonType: 'string',
+                description: 'deve ser uma string com o titulo do livro e é obrigatória'
+            },
+            autor: {
+                bsonType: 'string',
+                description: 'deve ser uma string com o nome do autor e é obrigatória'
+            },
+            ano: {
+                bsonType: 'int',
+                description: 'deve ser um inteiro com o ano de publicação do livro e é obrigatória'
+            },
+            preco: {
+                bsonType: 'decimal',
+                precision: 10,
+                scale: 2, // casas decimais
+                description: 'dever ser um float de no máximo duas casas decimais e é obrigatória'
+            }
+        }
+    }
+}
